@@ -70,6 +70,8 @@ const Details = () => {
     router.push("/settings");
   };
 
+  //a spreaded value will become property/attribute
+  //masukin ke custom hook
   const repopulate = () => {
     if (selector !== "") {
       return { value: selector };

@@ -43,6 +43,7 @@ const Period = () => {
     dispatch(updateCollectionDeadline(enteredDeadline));
     dispatch(updateRepeatCycle(enteredCycle));
 
+    //next router
     router.push("/criteria");
   };
 

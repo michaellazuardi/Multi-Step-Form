@@ -33,6 +33,7 @@ const Criteria = () => {
               value="Real Name Verification"
               name="criteria"
               required
+              checked
             />
             <label style={{ marginRight: 15 }}> Real Name Verification</label>
             <input
